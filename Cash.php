@@ -103,8 +103,6 @@ class Cash implements Entity
                     break;
             }
         }
-
-        // TODO
     }
 
     public function updateClient($now)
