@@ -1,0 +1,23 @@
+{
+  "name": "wolf/store-with-cash",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Volkov Danil",
+      "email": "linad2903@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Store\\": ""
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
+}
